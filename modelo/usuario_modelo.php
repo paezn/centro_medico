@@ -23,6 +23,8 @@
         {
             echo '<br>El usuario existe en la BD';
             echo '<br>Usuario: '.$resultado['login_usuario'];
+            echo '<br>Tipo: '.$resultado['tipo_usuario'];
+            echo '<br>Estado: '.$resultado['estado_usuario'];
         }
         else
         {
