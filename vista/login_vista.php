@@ -8,7 +8,7 @@
 <body>
     <h2>Iniciar sesión</h2>
     <!--Formulario para el inicio de sesión-->
-    <form action="../modelo/usuario_modelo.php" method="POST">
+    <form action="index_.php?m=autenticar" method="POST">
         <label for="">Login:</label>
         <input type="text" name="login" id="" required autofocus/>
         <br><br>

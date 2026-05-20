@@ -1,10 +1,10 @@
 <?php
-    require_once '../modelo/usuario_modelo.php';
+    require_once (__DIR__.'/../modelo/usuario_modelo.php');
 
     // mostrar formulario
     function mostrar_login()
     {
-        require_once '../vista/login_vista.php';
+        require_once (__DIR__.'/../vista/login_vista.php');
     }
 
     // Procesar credenciales
@@ -19,7 +19,8 @@
 
             if($usuario)
             {
-                header("Location: index.php");
+                //header("Location: index_.php");
+                echo '<br>Credenciales correctas';
             }
             else
             {
@@ -27,5 +28,4 @@
             }
         }
     }
-
 ?>
