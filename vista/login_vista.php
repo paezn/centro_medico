@@ -7,6 +7,12 @@
 </head>
 <body>
     <h2>Iniciar sesión</h2>
+    <?php
+        if(isset($error))
+        {
+            echo "<p style='color=red'>$error</p>";
+        }
+    ?>
     <!--Formulario para el inicio de sesión-->
     <form action="index_.php?m=autenticar" method="POST">
         <label for="">Login:</label>

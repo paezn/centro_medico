@@ -37,12 +37,17 @@
 
             if($usuario)
             {
+                // Iniciar sesión para el usuario
+
+
                 //header("Location: index_.php");
                 echo '<br>Credenciales correctas';
             }
             else
             {
-                echo 'Credenciales incorrectas';
+                $error = "Usuario o contraseña incorrectas";
+
+                //echo 'Credenciales incorrectas';
             }
         }
     }

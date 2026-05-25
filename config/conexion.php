@@ -15,7 +15,7 @@
 
         if (!$conexion) 
         {
-            die("<br>La conexión con la BD falló: " + mysqli_error($conexion));  
+            die("<br>La conexión con la BD falló: ".mysqli_connect_error());  
         }
         /*else
         {
