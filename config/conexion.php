@@ -19,12 +19,12 @@
         }
         /*else
         {
-            die("Conexión a la BD exitosa!"); 
+            die("<br>Conexión a la BD exitosa!"); 
         }*/
         return $conexion;
     }
 
-    //Probar conexion a BD
+    // Probar conexion a BD
     //echo '<br>Probando conexión con la BD...';
     //$con = conectar();
 ?>
